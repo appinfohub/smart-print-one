@@ -1,0 +1,71 @@
+import { connectDB } from '@/lib/mongodb';
+import { successResponse, errorResponse } from '@/lib/response';
+import PrinterRegistration from '@/models/PrinterRegistration';
+import { checkDistributedRateLimit, RATE_LIMITS } from '@/lib/securityRateLimit';
+import { createSecurityFingerprint } from '@/lib/securityFingerprint';
+import { getClientIp, isValidEmail, logSecurity } from '@/lib/security';
+
+/**
+ * POST /api/admin/register
+ * Register printer setup (public)
+ */
+export async function POST(request) {
+  try {
+    await connectDB();
+
+    const body = await request.json();
+    const { name, email, phone, model, agree, website } = body;
+
+    if (website) {
+      logSecurity(request, 'BLOCK', 'HONEYPOT');
+      return errorResponse('Invalid request', 400);
+    }
+
+    if (!name || !email || !phone || !model || !isValidEmail(email)) {
+      return errorResponse('All fields are required', 400);
+    }
+
+    if ([name, email, phone, model].some(value => typeof value !== 'string' || value.length > 200)) {
+      return errorResponse('Invalid request data', 400);
+    }
+
+    const rateLimit = await checkDistributedRateLimit({
+      identifier: createSecurityFingerprint([getClientIp(request), email, model]),
+      scope: 'submission-admin-registration',
+      ...RATE_LIMITS.submission,
+    });
+    if (!rateLimit.allowed) {
+      logSecurity(request, 'BLOCK', 'SUBMISSION_RATE_LIMIT');
+      return errorResponse('Too many submissions. Please try again later.', 429);
+    }
+
+    if (!agree) {
+      return errorResponse('You must agree to the terms and conditions', 400);
+    }
+
+    const registration = await PrinterRegistration.create({
+      name,
+      email,
+      phone,
+      model,
+      agree,
+    });
+
+    if (!registration) {
+      return errorResponse('Invalid registration data', 400);
+    }
+
+    return successResponse(
+      {
+        success: true,
+        message: 'Registration successful',
+        data: registration,
+      },
+      'Printer registered',
+      201
+    );
+  } catch (error) {
+    console.error('Admin register error:', error);
+    return errorResponse('Server error: ' + error.message, 500);
+  }
+}
