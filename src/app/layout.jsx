@@ -92,7 +92,6 @@ const storeSchema = {
     "Independent U.S. online retailer specializing in home printers, office printers, laser printers, inkjet printers, and ink & toner supplies.",
   url: "https://www.smartprintone.com",
   logo: "https://www.smartprintone.com/smartprintonelogo.png",
-
   email: "support@smartprintone.com",
   address: {
     "@type": "PostalAddress",
@@ -110,42 +109,18 @@ const storeSchema = {
     "@type": "OfferCatalog",
     name: "Printers & Supplies",
     itemListElement: [
-      {
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Product",
-          name: "Home Printers",
-        },
+      "Home Printers",
+      "Office Printers",
+      "Laser Printers",
+      "Inkjet Printers",
+      "Ink & Toner",
+    ].map((name) => ({
+      "@type": "Offer",
+      itemOffered: {
+        "@type": "Product",
+        name,
       },
-      {
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Product",
-          name: "Office Printers",
-        },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Product",
-          name: "Laser Printers",
-        },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Product",
-          name: "Inkjet Printers",
-        },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Product",
-          name: "Ink & Toner",
-        },
-      },
-    ],
+    })),
   },
 };
 
@@ -153,30 +128,51 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        {/* Store Schema */}
+        {/* External Tracking Script */}
         <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(storeSchema) }}
+          async
+          src="https://ob.sornavellon.com/i/6cd83818f302977b2729291478f5574c.js"
+          className="ct_clicktrue"
         />
 
+        {/* Google Ads Tag */}
         <Script
           id="gtag-js"
           src="https://www.googletagmanager.com/gtag/js?id=AW-18528128209"
           strategy="afterInteractive"
         />
+
         <Script
           id="gtag-inline"
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{
-            __html: `window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-18528128209');`,
+            __html: `window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'AW-18528128209');`,
           }}
         />
 
-       
+        {/* Store Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(storeSchema),
+          }}
+        />
       </head>
+
       <body>
-        {/* JivoChat - Deferred until page is interactive */}
-        {/* <Script
+        {/* External Tracking NoScript */}
+        <noscript
+          dangerouslySetInnerHTML={{
+            __html:
+              '<iframe src="https://ob.sornavellon.com/ns/6cd83818f302977b2729291478f5574c.html?ch=" width="0" height="0" style="display:none"></iframe>',
+          }}
+        />
+
+        {/* 
+        <Script
           id="jivochat-deferred"
           strategy="lazyOnload"
           dangerouslySetInnerHTML={{
@@ -191,7 +187,7 @@ export default function RootLayout({ children }) {
               } else {
                 setTimeout(function() {
                   var s = document.createElement('script');
-                  s.src = '//code.jivosite.com/widget/*********';
+                  s.src = '//code.jivosite.com/widget/********';
                   s.async = true;
                   document.body.appendChild(s);
                 }, 3000);

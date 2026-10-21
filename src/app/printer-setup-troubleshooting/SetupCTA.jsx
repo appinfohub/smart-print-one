@@ -9,7 +9,7 @@ export default function SetupCTA() {
   const [chatEnabled, setChatEnabled] = useState(false);
 
   useEffect(() => {
-    fetch("/api/smart-printer-setup/settings")
+    fetch("/api/hp-setup/settings")
       .then((res) => res.json())
       .then((data) => {
         if (typeof data.chatEnabled === "boolean") {

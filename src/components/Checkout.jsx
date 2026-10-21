@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useRouter } from 'next/navigation';
 import { redirect } from 'next/navigation';
+import CheckoutTracker from "./CheckoutTracker"
 
 import { saveShippingAddress } from '../redux/actions/cartActions';
 import api from '../lib/api';
@@ -221,6 +222,10 @@ const Checkout = () => {
     };
 
     return (
+        <>
+
+<CheckoutTracker />
+
         <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50/20 py-12">
             <SEO title="Checkout" description="Complete your order securely. Enter shipping details and payment information." canonical="/checkout" />
             {/* Background Patterns */}
@@ -699,6 +704,8 @@ const Checkout = () => {
                 </div>
             </div>
         </div>
+        
+        </>
     );
 };
 
