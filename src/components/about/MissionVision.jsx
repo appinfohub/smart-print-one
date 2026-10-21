@@ -12,7 +12,7 @@ const MissionVision = () => {
           </h2>
 
           <p className="text-gray-500 text-sm sm:text-base max-w-3xl mx-auto leading-relaxed">
-            At Smart Print One, we focus on making printing easier and more dependable for everyday life and work.<br className="hidden sm:block" />
+            At www.smartprintone.com, we focus on making printing easier and more dependable for everyday life and work.<br className="hidden sm:block" />
           </p>
         </div>
 

@@ -5,10 +5,10 @@ export const metadata = {
   metadataBase: new URL('https://www.smartprintone.com'),
   title: {
     default: 'HP Printer Setup & HP Smart Help',
-    template: '%s | Smart Print One',
+    template: '%s | www.smartprintone.com',
   },
   description:
-    'Get help with HP printer setup, HP Smart setup, printer offline issues, WiFi connections, adding a printer to your computer, drivers and printing problems.',
+    'Get help with HP printer setup, HP Smart setup, printer offline issues, WiFi connections, adding a printer to your computer, drivers and printing problems from www.smartprintone.com, owned and operated by Nova Ink LLC.',
   keywords: [
     'hp smart setup',
     'hp printer not connecting',
@@ -23,24 +23,24 @@ export const metadata = {
     'printer driver installation',
     'fix printer offline',
   ],
-  authors: [{ name: 'Smart Print One' }],
-  creator: 'Smart Print One',
-  publisher: 'Smart Print One',
+  authors: [{ name: 'www.smartprintone.com' }],
+  creator: 'www.smartprintone.com',
+  publisher: 'www.smartprintone.com',
   alternates: {
     canonical: 'https://www.smartprintone.com/printer-setup-troubleshooting/',
   },
   openGraph: {
-    title: 'HP Printer Setup & HP Smart Help | Smart Print One',
+    title: 'HP Printer Setup & HP Smart Help | www.smartprintone.com',
     description:
       'Get help with HP printer setup, HP Smart setup, printer offline issues, WiFi connections, adding a printer to your computer, drivers and printing problems.',
     url: 'https://www.smartprintone.com/printer-setup-troubleshooting/',
-    siteName: 'Smart Print One',
+    siteName: 'www.smartprintone.com',
     locale: 'en_US',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'HP Printer Setup & HP Smart Help | Smart Print One',
+    title: 'HP Printer Setup & HP Smart Help | www.smartprintone.com',
     description:
       'Get help with HP printer setup, HP Smart setup, printer offline issues, WiFi connections, adding a printer to your computer, drivers and printing problems.',
   },
@@ -63,7 +63,7 @@ const jsonLdSchema = {
     {
       '@type': 'Organization',
       '@id': 'https://www.smartprintone.com/#organization',
-      name: 'Smart Print One',
+      name: 'www.smartprintone.com',
       url: 'https://www.smartprintone.com',
       contactPoint: {
         '@type': 'ContactPoint',
@@ -77,7 +77,7 @@ const jsonLdSchema = {
       '@type': 'WebSite',
       '@id': 'https://www.smartprintone.com/#website',
       url: 'https://www.smartprintone.com',
-      name: 'Smart Print One',
+      name: 'www.smartprintone.com',
       publisher: {
         '@id': 'https://www.smartprintone.com/#organization',
       },
@@ -86,7 +86,7 @@ const jsonLdSchema = {
       '@type': 'WebPage',
       '@id': 'https://www.smartprintone.com/printer-setup-troubleshooting/#webpage',
       url: 'https://www.smartprintone.com/printer-setup-troubleshooting/',
-      name: 'HP Printer Setup & HP Smart Help | Smart Print One',
+      name: 'HP Printer Setup & HP Smart Help | www.smartprintone.com',
       description:
         'Get help with HP printer setup, HP Smart setup, printer offline issues, WiFi connections, adding a printer to your computer, drivers and printing problems.',
       isPartOf: {

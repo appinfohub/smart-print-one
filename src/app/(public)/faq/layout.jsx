@@ -1,12 +1,12 @@
 export const metadata = {
   title: 'Frequently Asked Questions (FAQ)',
-  description: 'Find answers to common questions about ordering, shipping, returns, printer support, and services offered by Smart Print One.',
+  description: 'Find answers to common questions about ordering, shipping, returns, printer support, and services offered by www.smartprintone.com.',
   alternates: {
     canonical: 'https://www.smartprintone.com/faq',
   },
   openGraph: {
-    title: 'Frequently Asked Questions (FAQ) | Smart Print One',
-    description: 'Find answers to common questions about ordering, shipping, returns, printer support, and services offered by Smart Print One.',
+    title: 'Frequently Asked Questions (FAQ) | www.smartprintone.com',
+    description: 'Find answers to common questions about ordering, shipping, returns, printer support, and services offered by www.smartprintone.com.',
     url: 'https://www.smartprintone.com/faq',
   },
 };
@@ -36,15 +36,15 @@ const faqSchema = {
   'mainEntity': [
     {
       '@type': 'Question',
-      'name': 'What is Smart Print One?',
+      'name': 'What is www.smartprintone.com?',
       'acceptedAnswer': {
         '@type': 'Answer',
-        'text': 'Smart Print One is an independent online store offering printers, inks, toners, and printing accessories across the United States and Canada. We provide genuine products, competitive prices, and expert customer support to make your printing experience simple and reliable.'
+        'text': 'www.smartprintone.com is an independent online store offering printers, inks, toners, and printing accessories across the United States and Canada. We provide genuine products, competitive prices, and expert customer support to make your printing experience simple and reliable.'
       }
     },
     {
       '@type': 'Question',
-      'name': 'Are the products sold by Smart Print One genuine?',
+      'name': 'Are the products sold by www.smartprintone.com genuine?',
       'acceptedAnswer': {
         '@type': 'Answer',
         'text': 'Yes. We only offer authentic and original products from trusted global brands. All trademarks and product names belong to their respective owners and are used for identification purposes only.'
@@ -52,7 +52,7 @@ const faqSchema = {
     },
     {
       '@type': 'Question',
-      'name': 'Is Smart Print One affiliated with any printer brand?',
+      'name': 'Is www.smartprintone.com affiliated with any printer brand?',
       'acceptedAnswer': {
         '@type': 'Answer',
         'text': 'No, we are not directly affiliated with any printer brand. We are an independent retailer.'
@@ -92,7 +92,7 @@ const faqSchema = {
     },
     {
       '@type': 'Question',
-      'name': 'How can I contact Smart Print One?',
+      'name': 'How can I contact www.smartprintone.com?',
       'acceptedAnswer': {
         '@type': 'Answer',
         'text': 'You can reach our support team anytime Email: support@smartprintone.com Address: 8787 Shenandoah Park Dr, Apt 826, Shenandoah, TX 77385'
@@ -108,7 +108,7 @@ const faqSchema = {
     },
     {
       '@type': 'Question',
-      'name': 'Why should I shop at Smart Print One?',
+      'name': 'Why should I shop at www.smartprintone.com?',
       'acceptedAnswer': {
         '@type': 'Answer',
         'text': 'Because we make printing simple. You get genuine products, affordable pricing, fast shipping, and friendly support — all in one trusted place.'

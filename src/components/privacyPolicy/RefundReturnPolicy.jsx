@@ -13,17 +13,18 @@ const ReturnRefundPolicy = () => {
 
             <div className="space-y-2 text-gray-600">
               <p>
-                <span className="font-semibold">Effective Date:</span> May 5,
-                2026
+                <span className="font-semibold">Effective Date:</span> 19 Oct 2026
               </p>
               <p>
-                <span className="font-semibold">Last Updated:</span> May 5,
-                2026
+                <span className="font-semibold">Last Updated:</span> 19 Oct 2026
               </p>
             </div>
 
             <p className="mt-6 text-gray-700 leading-8">
-              At Smart Print One, we aim to make shopping straightforward and fair. This Return &amp; Refund Policy outlines how we manage returns, replacements, and refunds when issues arise.
+              <span className="font-semibold">www.smartprintone.com</span> is
+              owned and operated by Nova Ink LLC. This Return &amp; Refund Policy
+              outlines how we manage returns, replacements, and refunds when
+              issues arise.
             </p>
           </div>
 
@@ -195,7 +196,7 @@ const ReturnRefundPolicy = () => {
                 directly by the manufacturer.
               </li>
               <li>
-                Smart Print One does not provide manufacturer warranty
+                www.smartprintone.com does not provide manufacturer warranty
                 services.
               </li>
             </ul>
@@ -246,7 +247,7 @@ const ReturnRefundPolicy = () => {
             </h2>
 
             <p className="text-gray-700 leading-8">
-              Smart Print One operates as an independent retailer and is not
+              www.smartprintone.com operates as an independent retailer and is not
               affiliated with or authorized by any printer manufacturer unless
               explicitly stated.
             </p>
@@ -281,7 +282,7 @@ const ReturnRefundPolicy = () => {
             </p>
 
             <div className="space-y-2 text-gray-700">
-              <p className="font-semibold">Smart Print One</p>
+              <p className="font-semibold">Nova Ink LLC</p>
               <p>8787 Shenandoah Park Dr, Apt 826</p>
               <p>Shenandoah, TX 77385</p>
               <p>United States</p>

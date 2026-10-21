@@ -1,12 +1,12 @@
 export const metadata = {
   title: 'Shop Printers & Accessories',
-  description: 'Browse and shop high-quality printers, ink, toner, and accessories at Smart Print One. Competitive pricing, genuine brands, and free shipping.',
+  description: 'Browse and shop high-quality printers, ink, toner, and accessories at www.smartprintone.com, owned and operated by Nova Ink LLC. Competitive pricing, genuine brands, and free shipping.',
   alternates: {
     canonical: 'https://www.smartprintone.com/shop',
   },
   openGraph: {
-    title: 'Shop Printers & Accessories | Smart Print One',
-    description: 'Browse and shop high-quality printers, ink, toner, and accessories at Smart Print One. Competitive pricing, genuine brands, and free shipping.',
+    title: 'Shop Printers & Accessories | www.smartprintone.com',
+    description: 'Browse and shop high-quality printers, ink, toner, and accessories at www.smartprintone.com. Competitive pricing, genuine brands, and free shipping.',
     url: 'https://www.smartprintone.com/shop',
   },
 };

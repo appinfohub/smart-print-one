@@ -27,7 +27,7 @@ function CompleteSetup({ showCompleteSetup }) {
     <>
       <Helmet>
         <title>Complete 123.hp.com/setup Steps | HP Printer Setup, Offline Fix & Troubleshooting</title>
-        <meta name="description" content="Visit 123.hp.com/setup for HP printer setup help, fix HP printer offline issues, and troubleshoot HP printer errors with step-by-step guidance from Smart Print One." />
+        <meta name="description" content="Visit 123.hp.com/setup for HP printer setup help, fix HP printer offline issues, and troubleshoot HP printer errors with step-by-step guidance from www.smartprintone.com, owned and operated by Nova Ink LLC." />
         <link rel="canonical" href={canonicalUrl} />
         <meta property="og:url" content={canonicalUrl} />
         <link rel="preload" as="image" href="/hero_background_image.webp" fetchPriority="high" />

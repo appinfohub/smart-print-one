@@ -23,7 +23,7 @@ const FinalConversion = () => {
         </p>
 
         <p className="text-slate-400 text-sm sm:text-base leading-relaxed mb-10 max-w-3xl mx-auto">
-          Smart Print One provides information and assistance for common printer setup and connectivity topics, including HP printer setup, HP Smart setup, HP printer offline issues, printer connection problems, WiFi setup, adding printers to computers, driver installation, printing problems, and scanner troubleshooting.
+          www.smartprintone.com provides information and assistance for common printer setup and connectivity topics, including HP printer setup, HP Smart setup, HP printer offline issues, printer connection problems, WiFi setup, adding printers to computers, driver installation, printing problems, and scanner troubleshooting.
         </p>
 
         <button

@@ -13,20 +13,18 @@ const PrivacyPolicy = () => {
 
             <div className="space-y-2 text-gray-600">
               <p>
-                <span className="font-semibold">Effective Date:</span> May 5,
-                2026
+                <span className="font-semibold">Effective Date:</span> 19 Oct 2026
               </p>
               <p>
-                <span className="font-semibold">Last Updated:</span> May 5, 2026
+                <span className="font-semibold">Last Updated:</span> 19 Oct 2026
               </p>
             </div>
 
             <p className="mt-6 text-gray-700 leading-8">
-              Smart Print One operates the website{" "}
-              <span className="font-semibold">
-                www.smartprintone.com
-              </span>
-              . This Privacy Policy outlines how we handle information collected through your visits, purchases, and account activity.
+              <span className="font-semibold">www.smartprintone.com</span> is
+              owned and operated by Nova Ink LLC. This Privacy Policy outlines
+              how we handle information collected through your visits,
+              purchases, and account activity.
             </p>
 
             <p className="mt-4 text-gray-700 leading-8 font-medium">
@@ -260,7 +258,7 @@ const PrivacyPolicy = () => {
             </h2>
 
             <p className="text-gray-700 leading-8">
-              Smart Print One operates as an independent retailer and is not
+              www.smartprintone.com operates as an independent retailer and is not
               affiliated with or authorized by any printer manufacturer unless
               explicitly stated.
             </p>
@@ -308,7 +306,7 @@ const PrivacyPolicy = () => {
             </p>
 
             <div className="space-y-2 text-gray-700">
-              <p className="font-semibold">Smart Print One</p>
+              <p className="font-semibold">Nova Ink LLC</p>
               <p>8787 Shenandoah Park Dr, Apt 826</p>
               <p>Shenandoah, TX 77385</p>
               <p>United States</p>

@@ -28,7 +28,7 @@ const WhoWeAre = () => {
               <div className="space-y-5 lg:space-y-8 text-gray-700 leading-7 lg:leading-8 text-base lg:text-lg">
                 <p>
                   <span className="font-semibold text-gray-900">
-                    Smart Print One
+                    www.smartprintone.com
                   </span>{" "}
                   is a customer-focused online retailer built to make printer buying simpler for homes, offices, and growing businesses.
                 </p>

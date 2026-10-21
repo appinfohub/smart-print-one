@@ -8,8 +8,8 @@ const faqSections = [
     title: "General Information",
     questions: [
       {
-        question: "What is Smart Print One?",
-        answer: "Smart Print One is an independent online retailer specializing in printers and printing supplies. We serve customers across the United States and Canada with a focus on reliable products, transparent pricing, and a simple shopping experience.",
+        question: "What is www.smartprintone.com, owned and operated by Nova Ink LLC?",
+        answer: "www.smartprintone.com is an independent online retailer specializing in printers and printing supplies. We serve customers across the United States and Canada with a focus on reliable products, transparent pricing, and a simple shopping experience.",
       },
       {
         question: "Are you a marketplace or multi-seller platform?",
@@ -17,7 +17,7 @@ const faqSections = [
       },
       {
         question: "Are you affiliated with printer brands or manufacturers?",
-        answer: `No. Smart Print One is an independent retailer and is not affiliated with, authorized by, or an official partner of any printer brand or manufacturer unless explicitly stated.
+        answer: `No. www.smartprintone.com is an independent retailer and is not affiliated with, authorized by, or an official partner of any printer brand or manufacturer unless explicitly stated.
 
          All brand names, logos, and trademarks belong to their respective owners.`,
       },
@@ -109,7 +109,7 @@ Offline and connectivity issues`,
       },
       {
         question: "Who handles warranty claims?",
-        answer: "Warranty claims are handled directly by the manufacturer, not by Smart Print One.",
+        answer: "Warranty claims are handled directly by the manufacturer, not by www.smartprintone.com.",
       },
       {
         question: "What if I receive a damaged or defective product?",

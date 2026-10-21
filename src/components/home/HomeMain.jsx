@@ -47,7 +47,7 @@ const HomeMain = () => {
         <>
             <SEO
                 title="Home"
-                description="Shop Smart Print One for high-quality printers, ink cartridges, and toner at affordable prices. Inkjet, laser, and all-in-one printers for home and office. Free shipping across North America."
+                description="Shop www.smartprintone.com, owned and operated by Nova Ink LLC, for high-quality printers, ink cartridges, and toner at affordable prices. Inkjet, laser, and all-in-one printers for home and office. Free shipping across North America."
                 canonical="/"
             />
             <Hero />

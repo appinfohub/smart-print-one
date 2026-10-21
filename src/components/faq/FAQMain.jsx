@@ -8,7 +8,7 @@ const FAQMain = () => {
     <>
       <SEO
         title="FAQ"
-        description="Frequently asked questions about Smart Print One printers, shipping, returns, and more. Find answers to common queries."
+        description="Frequently asked questions about www.smartprintone.com, printers, shipping, returns, and more. Find answers to common queries."
         canonical="/faq"
       />
       {/* Hero Section */}

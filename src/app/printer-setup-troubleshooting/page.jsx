@@ -1,8 +1,8 @@
 import Home from './Home';
 
 export const metadata = {
-  title: 'HP Printer Setup & HP Smart Help | Smart Print One',
-  description: 'Get help with HP printer setup, HP Smart setup, printer offline issues, WiFi connections, adding a printer to your computer, drivers and printing problems.',
+  title: 'HP Printer Setup & HP Smart Help | www.smartprintone.com',
+  description: 'Get help with HP printer setup, HP Smart setup, printer offline issues, WiFi connections, adding a printer to your computer, drivers and printing problems from www.smartprintone.com.',
   keywords: [
     'hp smart setup',
     'hp printer not connecting',
@@ -17,9 +17,9 @@ export const metadata = {
     'printer driver installation',
     'fix printer offline'
   ],
-  authors: [{ name: 'Smart Print One' }],
-  creator: 'Smart Print One',
-  publisher: 'Smart Print One',
+  authors: [{ name: 'www.smartprintone.com' }],
+  creator: 'www.smartprintone.com',
+  publisher: 'www.smartprintone.com',
   robots: {
     index: true,
     follow: true,

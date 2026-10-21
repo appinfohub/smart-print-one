@@ -11,7 +11,7 @@ const AboutMain = () => {
     <>
       <SEO
         title="About Us"
-        description="Learn about Smart Print One — your trusted source for affordable printers, ink, and toner cartridges. Quality products with expert support."
+        description="Learn about www.smartprintone.com — your trusted source for affordable printers, ink, and toner cartridges. Quality products with expert support."
         canonical="/about"
       />
       <AboutHero />

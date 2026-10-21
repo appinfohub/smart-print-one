@@ -1,7 +1,7 @@
 import { Helmet } from 'react-helmet-async';
 
 const SEO = ({ title, description, canonical, type = 'website' }) => {
-    const siteName = 'Smart Print One';
+    const siteName = 'www.smartprintone.com';
     const fullTitle = title ? `${title} | ${siteName}` : `${siteName} - Buy Affordable Printers, Ink & Toner Cartridges Online`;
 
     return (

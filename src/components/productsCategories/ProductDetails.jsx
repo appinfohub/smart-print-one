@@ -161,7 +161,7 @@ const handleWriteReview = () => {
         <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50/20">
             <SEO
                 title={product.title}
-                description={product.description ? product.description.replace(/<[^>]*>/g, '').substring(0, 160) : `Buy ${product.title} at Smart Print One. Best prices with free shipping.`}
+                description={product.description ? product.description.replace(/<[^>]*>/g, '').substring(0, 160) : `Buy ${product.title} at www.smartprintone.com. Best prices with free shipping.`}
                 canonical={`/product/${product.slug}`}
                 type="product"
             />

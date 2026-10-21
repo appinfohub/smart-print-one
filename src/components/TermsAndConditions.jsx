@@ -13,20 +13,19 @@ const TermsConditions = () => {
 
             <div className="space-y-2 text-gray-600">
               <p>
-                <span className="font-semibold">Effective Date:</span> May 5,
-                2026
+                <span className="font-semibold">Effective Date:</span> 19 Oct 2026
               </p>
               <p>
-                <span className="font-semibold">Last Updated:</span> May 5, 2026
+                <span className="font-semibold">Last Updated:</span> 19 Oct 2026
               </p>
             </div>
 
             <p className="mt-6 text-gray-700 leading-8">
-              Welcome to Smart Print One. These Terms &amp; Conditions explain the rules for using our website at{" "}
-              <span className="font-semibold">
-                www.smartprintone.com
-              </span>{" "}
-              and placing orders through our store.
+              Welcome to{" "}
+              <span className="font-semibold">www.smartprintone.com</span>,
+              owned and operated by Nova Ink LLC. These Terms &amp; Conditions
+              explain the rules for using our website and placing orders through
+              our store.
             </p>
 
             <p className="mt-4 text-gray-700 leading-8 font-medium">
@@ -71,7 +70,7 @@ const TermsConditions = () => {
             </h2>
 
             <p className="text-gray-700 leading-8">
-              Smart Print One operates as an independent online retailer.
+              www.smartprintone.com operates as an independent online retailer.
             </p>
 
             <ul className="list-disc pl-6 mt-5 space-y-2 text-gray-700">
@@ -209,7 +208,7 @@ const TermsConditions = () => {
                 by the manufacturer.
               </li>
               <li>
-                Smart Print One does not provide manufacturer warranty
+                www.smartprintone.com does not provide manufacturer warranty
                 services.
               </li>
             </ul>
@@ -259,7 +258,7 @@ const TermsConditions = () => {
             </h2>
 
             <p className="text-gray-700 mb-4">
-              To the fullest extent permitted by law, Smart Print One shall not
+              To the fullest extent permitted by law, www.smartprintone.com shall not
               be liable for:
             </p>
 
@@ -308,7 +307,7 @@ const TermsConditions = () => {
 
             <p className="text-gray-700 leading-8">
               All content on this website, including text, images, logos, and
-              design, is the property of Smart Print One or its licensors and
+              design, is the property of www.smartprintone.com or its licensors and
               is protected by applicable intellectual property laws.
             </p>
 
@@ -370,7 +369,7 @@ const TermsConditions = () => {
             </p>
 
             <div className="space-y-2 text-gray-700">
-              <p className="font-semibold">Smart Print One</p>
+              <p className="font-semibold">Nova Ink LLC</p>
               <p>8787 Shenandoah Park Dr, Apt 826</p>
               <p>Shenandoah, TX 77385</p>
               <p>United States</p>

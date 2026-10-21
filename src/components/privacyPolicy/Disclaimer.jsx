@@ -13,21 +13,20 @@ const Disclaimer = () => {
 
             <div className="space-y-2 text-gray-600">
               <p>
-                <span className="font-semibold">Effective Date:</span> May 5,
-                2026
+                <span className="font-semibold">Effective Date:</span> 19 Oct 2026
               </p>
               <p>
-                <span className="font-semibold">Last Updated:</span> May 5,
-                2026
+                <span className="font-semibold">Last Updated:</span> 19 Oct 2026
               </p>
             </div>
 
             <p className="mt-6 text-gray-700 leading-8">
-              The content on Smart Print One's website is provided for general informational purposes and to support product discovery and purchase decisions.
-              <span className="font-semibold">
-                {" "}www.smartprintone.com
-              </span>{" "}
-              is intended to help customers understand available products and services, but it should not be treated as expert or legal advice.
+              <span className="font-semibold">www.smartprintone.com</span>,
+              owned and operated by Nova Ink LLC, provides content for general
+              informational purposes and to support product discovery and
+              purchase decisions. The website is intended to help customers
+              understand available products and services, but it should not be
+              treated as expert or legal advice.
             </p>
 
             <p className="mt-4 text-gray-700 leading-8 font-medium">
@@ -42,7 +41,7 @@ const Disclaimer = () => {
             </h2>
 
             <p className="text-gray-700 leading-8">
-              Smart Print One operates as an independent online retailer of
+              www.smartprintone.com operates as an independent online retailer of
               printers and printing supplies.
             </p>
 
@@ -93,7 +92,7 @@ const Disclaimer = () => {
             </h2>
 
             <p className="text-gray-700 mb-4">
-              Smart Print One may provide general guidance and support related
+              www.smartprintone.com may provide general guidance and support related
               to:
             </p>
 
@@ -143,7 +142,7 @@ const Disclaimer = () => {
                 the manufacturer.
               </li>
               <li>
-                Smart Print One does not provide manufacturer warranty services
+                www.smartprintone.com does not provide manufacturer warranty services
                 and is not responsible for warranty-related outcomes.
               </li>
             </ul>
@@ -184,7 +183,7 @@ const Disclaimer = () => {
             </h2>
 
             <p className="text-gray-700 mb-4">
-              To the fullest extent permitted by law, Smart Print One shall not
+              To the fullest extent permitted by law, www.smartprintone.com shall not
               be liable for:
             </p>
 
@@ -236,7 +235,7 @@ const Disclaimer = () => {
             </p>
 
             <div className="space-y-2 text-gray-700">
-              <p className="font-semibold">Smart Print One</p>
+              <p className="font-semibold">Nova Ink LLC</p>
               <p>8787 Shenandoah Park Dr, Apt 826</p>
               <p>Shenandoah, TX 77385</p>
               <p>United States</p>

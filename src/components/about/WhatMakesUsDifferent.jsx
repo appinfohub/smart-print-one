@@ -12,7 +12,7 @@ const WhatMakesUsDifferent = () => {
             </h2>
 
             <p className="text-gray-300 text-sm sm:text-base leading-relaxed mb-6 lg:mb-8">
-              Smart Print One keeps things simple by acting as a{" "}
+              www.smartprintone.com keeps things simple by acting as a{" "}
               <span className="font-semibold text-white">
                 single, accountable source for printers and supplies.
               </span>

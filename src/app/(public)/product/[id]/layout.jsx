@@ -51,12 +51,12 @@ export async function generateMetadata({ params }) {
   if (!product) {
     return {
       title: 'Product Not Found',
-      description: 'The requested product could not be found on Smart Print One.',
+      description: 'The requested product could not be found on www.smartprintone.com, owned and operated by Nova Ink LLC.',
     };
   }
 
   const title = product.title;
-  const description = product.shortDetails || product.description || `Buy ${product.title} online at Smart Print One. Get genuine printer quality, fast shipping, and expert support.`;
+  const description = product.shortDetails || product.description || `Buy ${product.title} online at www.smartprintone.com, owned and operated by Nova Ink LLC. Get genuine printer quality, fast shipping, and expert support.`;
   const categoryName = product.category?.name || 'Printers';
   const imageUrl = product.images && product.images.length > 0 ? product.images[0] : 'https://www.smartprintone.com/smartprintonelogo.png';
   const slug = product.slug || product._id.toString();
@@ -64,12 +64,12 @@ export async function generateMetadata({ params }) {
   return {
     title,
     description,
-    keywords: [product.title, product.brand || 'Smart Print One', categoryName, 'buy printer online', 'Smart Print One'],
+    keywords: [product.title, product.brand || 'www.smartprintone.com', categoryName, 'buy printer online', 'www.smartprintone.com'],
     alternates: {
       canonical: `https://www.smartprintone.com/product/${slug}`,
     },
     openGraph: {
-      title: `${title} | Smart Print One`,
+      title: `${title} | www.smartprintone.com`,
       description,
       url: `https://www.smartprintone.com/product/${slug}`,
       images: [
@@ -82,7 +82,7 @@ export async function generateMetadata({ params }) {
     },
     twitter: {
       card: 'summary_large_image',
-      title: `${title} | Smart Print One`,
+      title: `${title} | www.smartprintone.com`,
       description,
       images: [imageUrl],
     },
@@ -110,7 +110,7 @@ export default async function ProductLayout({ children, params }) {
       'description': product.description || product.shortDetails || `${product.title} premium printer.`,
       'brand': {
         '@type': 'Brand',
-        'name': product.brand || 'Smart Print One'
+        'name': product.brand || 'www.smartprintone.com'
       },
       'offers': {
         '@type': 'Offer',
@@ -121,7 +121,7 @@ export default async function ProductLayout({ children, params }) {
         'availability': product.countInStock > 0 ? 'https://schema.org/InStock' : 'https://schema.org/OutOfStock',
         'seller': {
           '@type': 'Organization',
-          'name': 'Smart Print One'
+          'name': 'www.smartprintone.com'
         }
       }
     };

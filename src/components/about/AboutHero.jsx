@@ -8,7 +8,7 @@ const AboutHero = () => {
         {/* BACKGROUND IMAGE */}
         <img
           src="/home-banner.webp"
-          alt="About Smart Print One"
+          alt="About www.smartprintone.com"
           fetchPriority="high"
           className="absolute inset-0 w-full h-full object-cover"
         />
@@ -29,7 +29,7 @@ const AboutHero = () => {
           </p>
           <br />
           <p className="text-white/90 text-sm sm:text-base md:text-lg leading-relaxed max-w-4xl">
-            Smart Print One helps customers find practical, affordable printing solutions with straightforward service, clear product information, and dependable support from first purchase to everyday use.
+            www.smartprintone.com, owned and operated by Nova Ink LLC, helps customers find practical, affordable printing solutions with straightforward service, clear product information, and dependable support from first purchase to everyday use.
           </p>
         </div>
       </div>

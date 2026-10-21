@@ -42,7 +42,7 @@ const WhyChooseUs = () => {
         <div className="flex justify-center">
           <img 
             src={whyUs}
-            alt="Why choose Smart Print One" 
+            alt="Why choose www.smartprintone.com"
             width="448"
             height="448"
             className="w-full max-w-md h-auto object-contain"

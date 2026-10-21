@@ -4,7 +4,7 @@ const Reviews = () => {
   const reviews = [
     {
       name: "David R., Austin",
-      quote: "I needed a reliable printer for my home office, and Smart Print One made the entire process simple. The product details were clear, delivery was fast, and setup was easy. It’s refreshing to buy from a store that actually delivers what it promises.",
+      quote: "I needed a reliable printer for my home office, and www.smartprintone.com made the entire process simple. The product details were clear, delivery was fast, and setup was easy. It’s refreshing to buy from a store that actually delivers what it promises.",
     },
     {
       name: "Melissa K., Toronto",

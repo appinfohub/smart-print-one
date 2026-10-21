@@ -12,7 +12,7 @@ const BusinessInfo = () => {
 
                     <div className="mb-8">
                         <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                            Smart Print One
+                            Nova Ink LLC
                         </h3>
 
                         <p className="text-gray-600 leading-8">
@@ -41,7 +41,7 @@ const BusinessInfo = () => {
                         </h3>
 
                         <p className="text-gray-600 leading-8 mb-5">
-                            Smart Print One provides general product guidance and customer
+                            www.smartprintone.com provides general product guidance and customer
                             assistance only.
                         </p>
 
