@@ -87,7 +87,7 @@ const Footer = () => {
         <hr className="border-gray-700" />
         <div className="flex flex-col sm:flex-row items-center justify-between py-6 gap-4">
           <p className="text-gray-400 text-sm">
-            Copyright © 2026 Smart Print One. Owned and Operated by Nova Ink LLC. All Rights Reserved.
+            Copyright © 2026 www.smartprintone.com, Owned and Operated by Nova Ink LLC. All Rights Reserved.
           </p>
           <div className="flex items-center gap-2">
             <Image src="https://img.icons8.com/color/38/paypal.png" alt="PayPal" width={28} height={28} className="object-contain" />
