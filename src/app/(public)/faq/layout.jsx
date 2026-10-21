@@ -5,7 +5,7 @@ export const metadata = {
     canonical: 'https://www.smartprintone.com/faq',
   },
   openGraph: {
-    title: 'Frequently Asked Questions (FAQ) | www.smartprintone.com',
+    title: 'Frequently Asked Questions (FAQ) | Smart Print One',
     description: 'Find answers to common questions about ordering, shipping, returns, printer support, and services offered by www.smartprintone.com.',
     url: 'https://www.smartprintone.com/faq',
   },

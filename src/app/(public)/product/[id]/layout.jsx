@@ -69,7 +69,7 @@ export async function generateMetadata({ params }) {
       canonical: `https://www.smartprintone.com/product/${slug}`,
     },
     openGraph: {
-      title: `${title} | www.smartprintone.com`,
+      title: `${title} | Smart Print One`,
       description,
       url: `https://www.smartprintone.com/product/${slug}`,
       images: [
@@ -82,7 +82,7 @@ export async function generateMetadata({ params }) {
     },
     twitter: {
       card: 'summary_large_image',
-      title: `${title} | www.smartprintone.com`,
+      title: `${title} | Smart Print One`,
       description,
       images: [imageUrl],
     },

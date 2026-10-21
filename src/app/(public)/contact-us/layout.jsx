@@ -5,7 +5,7 @@ export const metadata = {
     canonical: 'https://www.smartprintone.com/contact-us',
   },
   openGraph: {
-    title: 'Contact Us | www.smartprintone.com',
+    title: 'Contact Us | Smart Print One',
     description: 'Get in touch with www.smartprintone.com. Email support@smartprintone.com, or visit us in Shenandoah, TX.',
     url: 'https://www.smartprintone.com/contact-us',
   },

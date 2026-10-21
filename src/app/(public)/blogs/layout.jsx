@@ -5,7 +5,7 @@ export const metadata = {
     canonical: 'https://www.smartprintone.com/blogs',
   },
   openGraph: {
-    title: 'Blogs & Insights | www.smartprintone.com',
+    title: 'Blogs & Insights | Smart Print One',
     description: 'Read the latest blogs, guides, printer maintenance tips, and industry insights from the printer experts at www.smartprintone.com.',
     url: 'https://www.smartprintone.com/blogs',
   },

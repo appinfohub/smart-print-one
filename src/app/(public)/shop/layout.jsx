@@ -5,7 +5,7 @@ export const metadata = {
     canonical: 'https://www.smartprintone.com/shop',
   },
   openGraph: {
-    title: 'Shop Printers & Accessories | www.smartprintone.com',
+    title: 'Shop Printers & Accessories | Smart Print One',
     description: 'Browse and shop high-quality printers, ink, toner, and accessories at www.smartprintone.com. Competitive pricing, genuine brands, and free shipping.',
     url: 'https://www.smartprintone.com/shop',
   },

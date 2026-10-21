@@ -5,7 +5,7 @@ export const metadata = {
   metadataBase: new URL('https://www.smartprintone.com'),
   title: {
     default: 'HP Printer Setup & HP Smart Help',
-    template: '%s | www.smartprintone.com',
+    template: '%s | Smart Print One',
   },
   description:
     'Get help with HP printer setup, HP Smart setup, printer offline issues, WiFi connections, adding a printer to your computer, drivers and printing problems from www.smartprintone.com, owned and operated by Nova Ink LLC.',
@@ -30,17 +30,17 @@ export const metadata = {
     canonical: 'https://www.smartprintone.com/printer-setup-troubleshooting/',
   },
   openGraph: {
-    title: 'HP Printer Setup & HP Smart Help | www.smartprintone.com',
+    title: 'HP Printer Setup & HP Smart Help | Smart Print One',
     description:
       'Get help with HP printer setup, HP Smart setup, printer offline issues, WiFi connections, adding a printer to your computer, drivers and printing problems.',
     url: 'https://www.smartprintone.com/printer-setup-troubleshooting/',
-    siteName: 'www.smartprintone.com',
+    siteName: 'Smart Print One',
     locale: 'en_US',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'HP Printer Setup & HP Smart Help | www.smartprintone.com',
+    title: 'HP Printer Setup & HP Smart Help | Smart Print One',
     description:
       'Get help with HP printer setup, HP Smart setup, printer offline issues, WiFi connections, adding a printer to your computer, drivers and printing problems.',
   },

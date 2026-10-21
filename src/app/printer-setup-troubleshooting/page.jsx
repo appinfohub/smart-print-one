@@ -1,7 +1,7 @@
 import Home from './Home';
 
 export const metadata = {
-  title: 'HP Printer Setup & HP Smart Help | www.smartprintone.com',
+  title: 'HP Printer Setup & HP Smart Help | Smart Print One',
   description: 'Get help with HP printer setup, HP Smart setup, printer offline issues, WiFi connections, adding a printer to your computer, drivers and printing problems from www.smartprintone.com.',
   keywords: [
     'hp smart setup',
