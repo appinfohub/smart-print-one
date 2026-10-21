@@ -16,9 +16,9 @@ const BusinessInfo = () => {
                         </h3>
 
                         <p className="text-gray-600 leading-8">
-                            12602 FM 529
+                            8787 Shenandoah Park Dr, Apt 826
                             <br />
-                            Houston, TX 77041
+                            Shenandoah, TX 77385
                             <br />
                             United States
                         </p>

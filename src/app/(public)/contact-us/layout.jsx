@@ -1,12 +1,12 @@
 export const metadata = {
   title: 'Contact Us',
-  description: 'Get in touch with the Smart Print One support team. Email support@smartprintone.com, or visit us in Houston, TX.',
+  description: 'Get in touch with the Smart Print One support team. Email support@smartprintone.com, or visit us in Shenandoah, TX.',
   alternates: {
     canonical: 'https://www.smartprintone.com/contact-us',
   },
   openGraph: {
     title: 'Contact Us | Smart Print One',
-    description: 'Get in touch with the Smart Print One support team. Email support@smartprintone.com, or visit us in Houston, TX.',
+    description: 'Get in touch with the Smart Print One support team. Email support@smartprintone.com, or visit us in Shenandoah, TX.',
     url: 'https://www.smartprintone.com/contact-us',
   },
 };
@@ -44,10 +44,10 @@ const contactPageSchema = {
     'image': 'https://www.smartprintone.com/smartprintonelogo.png',
     'address': {
       '@type': 'PostalAddress',
-      'streetAddress': '12602 FM 529',
-      'addressLocality': 'Houston',
+      'streetAddress': '8787 Shenandoah Park Dr, Apt 826',
+      'addressLocality': 'Shenandoah',
       'addressRegion': 'TX',
-      'postalCode': '77041',
+      'postalCode': '77385',
       'addressCountry': 'US'
     }
   }

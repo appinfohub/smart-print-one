@@ -89,10 +89,10 @@ const storeSchema = {
   'email': 'support@smartprintone.com',
   'address': {
     '@type': 'PostalAddress',
-    'streetAddress': '12602 FM 529',
-    'addressLocality': 'Houston',
+    'streetAddress': '8787 Shenandoah Park Dr, Apt 826',
+    'addressLocality': 'Shenandoah',
     'addressRegion': 'TX',
-    'postalCode': '77041',
+    'postalCode': '77385',
     'addressCountry': 'US'
   },
   'areaServed': ['US', 'CA'],

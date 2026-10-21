@@ -282,8 +282,8 @@ const ReturnRefundPolicy = () => {
 
             <div className="space-y-2 text-gray-700">
               <p className="font-semibold">Smart Print One</p>
-              <p>12602 FM 529</p>
-              <p>Houston, TX 77041</p>
+              <p>8787 Shenandoah Park Dr, Apt 826</p>
+              <p>Shenandoah, TX 77385</p>
               <p>United States</p>
 
               <p className="pt-4">

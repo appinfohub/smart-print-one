@@ -95,7 +95,7 @@ const faqSchema = {
       'name': 'How can I contact Smart Print One?',
       'acceptedAnswer': {
         '@type': 'Answer',
-        'text': 'You can reach our support team anytime Email: support@smartprintone.com Address: 12602 FM 529, Houston, TX 77041'
+        'text': 'You can reach our support team anytime Email: support@smartprintone.com Address: 8787 Shenandoah Park Dr, Apt 826, Shenandoah, TX 77385'
       }
     },
     {

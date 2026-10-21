@@ -66,7 +66,7 @@ const ContactMain = () => {
                   </span>
                   <div>
                     <h3 className="font-bold text-lg text-gray-900 mb-1">Address</h3>
-                    <p className="text-gray-700">12602 FM 529, Houston, TX 77041</p>
+                    <p className="text-gray-700">8787 Shenandoah Park Dr, Apt 826, Shenandoah, TX 77385</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-5">

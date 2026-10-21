@@ -1,12 +1,12 @@
 export const metadata = {
   title: 'About Us',
-  description: 'Learn about Smart Print One, an independent online retailer based in Houston, TX, specializing in practical printing solutions for homes and businesses.',
+  description: 'Learn about Smart Print One, an independent online retailer based in Shenandoah, TX, specializing in practical printing solutions for homes and businesses.',
   alternates: {
     canonical: 'https://www.smartprintone.com/about',
   },
   openGraph: {
     title: 'About Us | Smart Print One',
-    description: 'Learn about Smart Print One, an independent online retailer based in Houston, TX, specializing in practical printing solutions for homes and businesses.',
+    description: 'Learn about Smart Print One, an independent online retailer based in Shenandoah, TX, specializing in practical printing solutions for homes and businesses.',
     url: 'https://www.smartprintone.com/about',
   },
 };

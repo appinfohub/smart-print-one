@@ -26,7 +26,7 @@ const AdminSettings = () => {
                     </div>
                     <div>
                         <label className="block text-sm font-semibold text-slate-700 mb-2">Address</label>
-                        <input type="text" defaultValue="12602 FM 529, Houston, TX 77041" className="w-full px-4 py-2 border border-slate-200 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none" />
+                        <input type="text" defaultValue="8787 Shenandoah Park Dr, Apt 826, Shenandoah, TX 77385" className="w-full px-4 py-2 border border-slate-200 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none" />
                     </div>
                 </div>
                 <div className="p-6 bg-slate-50 border-t border-slate-100 text-right">

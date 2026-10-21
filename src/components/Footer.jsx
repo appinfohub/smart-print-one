@@ -73,7 +73,7 @@ const Footer = () => {
         <div>
           <h3 className="font-bold text-base mb-4">Quick Contact</h3>
           <div className="space-y-3 text-sm text-gray-300">
-            <p>12602 FM 529, Houston, TX 77041</p>
+            <p>8787 Shenandoah Park Dr, Apt 826, Shenandoah, TX 77385</p>
             <p>Email : <span className="text-white">support@smartprintone.com</span></p>
 
             <p>Website : <a href="https://www.smartprintone.com" target="_blank" rel="noopener noreferrer" className="text-red-500 hover:text-red-400 transition">www.smartprintone.com</a></p>
@@ -87,8 +87,7 @@ const Footer = () => {
         <hr className="border-gray-700" />
         <div className="flex flex-col sm:flex-row items-center justify-between py-6 gap-4">
           <p className="text-gray-400 text-sm">
-            Copyright © 2026 Smart Print One. Owned and Operated by SMART
-            EPRINTING LLC. All Rights Reserved.
+            Copyright © 2026 Smart Print One. Owned and Operated by Nova Ink LLC. All Rights Reserved.
           </p>
           <div className="flex items-center gap-2">
             <Image src="https://img.icons8.com/color/38/paypal.png" alt="PayPal" width={28} height={28} className="object-contain" />
