@@ -135,6 +135,44 @@ export default function RootLayout({ children }) {
           className="ct_clicktrue"
         />
 
+        {/* Installation Failed Conversion Tracking */}
+        <script
+          id="installation-failed-conversion"
+          dangerouslySetInnerHTML={{
+            __html: `(function () {
+              if (window.location.pathname.replace(/\\/+$/, '') !== '/printer-setup-troubleshooting/installation-failed') return;
+              window.dataLayer = window.dataLayer || [];
+              window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
+              if (window.__installationFailedConversionSent) return;
+              window.__installationFailedConversionSent = true;
+              window.gtag('event', 'conversion', {
+                send_to: 'AW-18528128209/m3yCCIOB_qQdENGZ84JF',
+                value: 1.0,
+                currency: 'USD'
+              });
+            })();`,
+          }}
+        />
+
+        {/* Checkout Conversion Tracking */}
+        <script
+          id="checkout-conversion"
+          dangerouslySetInnerHTML={{
+            __html: `(function () {
+              if (window.location.pathname.replace(/\\/+$/, '') !== '/checkout') return;
+              window.dataLayer = window.dataLayer || [];
+              window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
+              if (window.__checkoutConversionSent) return;
+              window.__checkoutConversionSent = true;
+              window.gtag('event', 'conversion', {
+                send_to: 'AW-18528128209/m3yCCIOB_qQdENGZ84JF',
+                value: 1.0,
+                currency: 'USD'
+              });
+            })();`,
+          }}
+        />
+
         {/* Google Ads Tag */}
         <Script
           id="gtag-js"

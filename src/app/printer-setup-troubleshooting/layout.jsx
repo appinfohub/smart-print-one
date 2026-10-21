@@ -194,6 +194,19 @@ const jsonLdSchema = {
 export default function PrinterSetupLayout({ children }) {
   return (
     <>
+      <Script
+        id="gtag-js"
+        src="https://www.googletagmanager.com/gtag/js?id=AW-18528128209"
+        strategy="afterInteractive"
+      />
+      <Script
+        id="gtag-inline-printer-setup"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-18528128209');`,
+        }}
+      />
+
       {/* SEO JSON-LD Structured Data Schema */}
       <Script
         id="seo-structured-data"
