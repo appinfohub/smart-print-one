@@ -209,7 +209,7 @@ gtag('config', 'AW-18528128209');`,
           }}
         />
 
-        {/* 
+        
         <Script
           id="jivochat-deferred"
           strategy="lazyOnload"
@@ -218,21 +218,21 @@ gtag('config', 'AW-18528128209');`,
               if ('requestIdleCallback' in window) {
                 requestIdleCallback(function() {
                   var s = document.createElement('script');
-                  s.src = '//code.jivosite.com/widget/********';
+                  s.src = '//code.jivosite.com/widget/zEMRRzrhtk';
                   s.async = true;
                   document.body.appendChild(s);
                 });
               } else {
                 setTimeout(function() {
                   var s = document.createElement('script');
-                  s.src = '//code.jivosite.com/widget/********';
+                  s.src = '//code.jivosite.com/widget/zEMRRzrhtk';
                   s.async = true;
                   document.body.appendChild(s);
                 }, 3000);
               }
             `,
           }}
-        /> */}
+        />
 
         <Providers>
           {children}
