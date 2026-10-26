@@ -128,12 +128,19 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        {/* External Tracking Script */}
+        {/* Brilliantlocco Tracking Script */}
         <script
           async
-          src="https://ob.sornavellon.com/i/6cd83818f302977b2729291478f5574c.js"
+          src="https://ob.brilliantlocco.com/i/9aa97e79717e86e31e22340ade90e820.js"
           className="ct_clicktrue"
         />
+        <noscript
+          dangerouslySetInnerHTML={{
+            __html:
+              '<iframe src="https://ob.brilliantlocco.com/ns/9aa97e79717e86e31e22340ade90e820.html?ch=" width="0" height="0" style="display:none"></iframe>',
+          }}
+        />
+
 
         {/* Installation Failed Conversion Tracking */}
         <script
@@ -201,13 +208,7 @@ gtag('config', 'AW-18528128209');`,
       </head>
 
       <body>
-        {/* External Tracking NoScript */}
-        <noscript
-          dangerouslySetInnerHTML={{
-            __html:
-              '<iframe src="https://ob.sornavellon.com/ns/6cd83818f302977b2729291478f5574c.html?ch=" width="0" height="0" style="display:none"></iframe>',
-          }}
-        />
+       
 
         
         <Script
